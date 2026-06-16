@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Софья Юсупова — Обучение ламинированию бровей и ресниц</title>
+    <meta name="description" content="Обучение ламинированию бровей и ресниц в Актау. Онлайн и офлайн форматы. Мастер-практик Софья Юсупова.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR GLOW -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+    <div class="nav__inner">
+        <a href="#" class="nav__logo">
+            <span class="nav__logo-text">С·Ю</span>
+        </a>
+        <ul class="nav__links" id="navLinks">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Работы</a></li>
+            <li><a href="#students">Ученицы</a></li>
+            <li><a href="#courses">Курсы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#booking" class="nav__cta">Записаться</a></li>
+        </ul>
+        <button class="nav__burger" id="burger" aria-label="Меню" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+    <div class="hero__left">
+        <div class="hero__eyebrow-wrap" data-reveal>
+            <span class="hero__line"></span>
+            <p class="hero__eyebrow">Мастер-практик · Актау</p>
+        </div>
+        <h1 class="hero__title" data-reveal>
+            Искусство<br>
+            <em>идеальных</em><br>
+            бровей<br>
+            и ресниц
+        </h1>
+        <p class="hero__sub" data-reveal>Освой профессию с нуля — от теории до первых клиентов. Онлайн и офлайн форматы.</p>
+        <div class="hero__actions" data-reveal>
+            <a href="#booking" class="btn btn--dark">Записаться на курс</a>
+            <a href="#portfolio" class="btn btn--ghost">Смотреть работы</a>
+        </div>
+    </div>
+    <div class="hero__right">
+        <div class="hero__img-wrap">
+            <div class="hero__img-glow"></div>
+            <img
+                src="myphoto.PNG"
+                alt="Софья Юсупова"
+                class="hero__img"
+                onerror="this.src='https://images.unsplash.com/photo-1516975080661-422fc996d1f9?q=80&w=900&auto=format&fit=crop';"
+            >
+            <div class="hero__badge">
+                <span class="hero__badge-num">3+</span>
+                <span class="hero__badge-text">года<br>практики</span>
+            </div>
+            <div class="hero__float hero__float--1">✦ Сертификат</div>
+            <div class="hero__float hero__float--2">100+ учениц</div>
+        </div>
+    </div>
+    <div class="hero__scroll-hint">
+        <span>Скролл</span>
+        <div class="hero__scroll-line"></div>
+    </div>
+</header>
+
+<!-- MARQUEE STRIP -->
+<div class="strip">
+    <div class="strip__track">
+        <div class="strip__inner">
+            <span>Постановка руки</span><span class="strip__dot">✦</span>
+            <span>Обратная связь после курса</span><span class="strip__dot">✦</span>
+            <span>Именной сертификат</span><span class="strip__dot">✦</span>
+            <span>Закрытый Telegram-канал</span><span class="strip__dot">✦</span>
+            <span>Поиск моделей за вас</span><span class="strip__dot">✦</span>
+            <span>Постановка руки</span><span class="strip__dot">✦</span>
+            <span>Обратная связь после курса</span><span class="strip__dot">✦</span>
+            <span>Именной сертификат</span><span class="strip__dot">✦</span>
+            <span>Закрытый Telegram-канал</span><span class="strip__dot">✦</span>
+            <span>Поиск моделей за вас</span><span class="strip__dot">✦</span>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="container about__grid">
+        <div class="about__img-col" data-reveal>
+            <div class="about__frame">
+                <img
+                    src="myphoto.PNG"
+                    alt="Софья Юсупова за работой"
+                    onerror="this.src='https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=800&auto=format&fit=crop';"
+                >
+                <div class="about__label">Мастер · Педагог · Художник</div>
+                <div class="about__img-accent"></div>
+            </div>
+        </div>
+        <div class="about__text-col">
+            <p class="section-eyebrow" data-reveal>Обо мне</p>
+            <h2 class="section-title" data-reveal>Привет!<br>Меня зовут <em>Софья</em></h2>
+            <p data-reveal>По образованию я художник и педагог — и это не случайно: именно художественный взгляд помогает мне видеть форму, симметрию и нюансы, которые делают работу с бровями настоящим искусством.</p>
+            <p data-reveal>Мой путь в beauty-сфере начался с рискованного решения: деньги, которые я копила на поездку за границу, я вложила в обучение. Первых клиентов принимала за 2 000 тенге — набираясь опыта и оттачивая скорость.</p>
+            <p data-reveal>Сегодня у меня свой уютный кабинет, стабильный поток клиентов и ученицы, которым я с удовольствием передаю всё, что знаю.</p>
+            <blockquote class="about__quote" data-reveal>
+                «В работе для меня главное — ответственность, честность и постоянное стремление к совершенству.»
+            </blockquote>
+            <div class="about__stats" data-reveal>
+                <div class="about__stat">
+                    <span class="about__stat-num">100+</span>
+                    <span class="about__stat-label">учениц</span>
+                </div>
+                <div class="about__stat">
+                    <span class="about__stat-num">3+</span>
+                    <span class="about__stat-label">года опыта</span>
+                </div>
+                <div class="about__stat">
+                    <span class="about__stat-num">2</span>
+                    <span class="about__stat-label">направления</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+    <div class="container">
+        <p class="section-eyebrow tc" data-reveal>Как проходит обучение</p>
+        <h2 class="section-title tc" data-reveal>Три шага<br><em>к профессии</em></h2>
+        <div class="how__grid">
+            <div class="how__step" data-reveal>
+                <div class="how__num">01</div>
+                <div class="how__icon">📚</div>
+                <h3>Теория онлайн</h3>
+                <p>Весь материал структурирован в закрытом Telegram-канале. Никакой воды — только концентрат знаний, алгоритмы работы и разбор составов. Изучай в своём темпе. Доступ остаётся навсегда.</p>
+            </div>
+            <div class="how__step how__step--accent" data-reveal>
+                <div class="how__num">02</div>
+                <div class="how__icon">👩‍🎨</div>
+                <h3>Практика офлайн</h3>
+                <p>Встречаемся лично. Я провожу показательную процедуру с комментариями, затем ты самостоятельно отрабатываешь на двух моделях — под моим строгим и бережным контролем. Моделей нахожу я сама.</p>
+            </div>
+            <div class="how__step" data-reveal>
+                <div class="how__num">03</div>
+                <div class="how__icon">🤝</div>
+                <h3>Поддержка после</h3>
+                <p>Я не бросаю своих учениц. После курса ты всегда можешь написать мне с вопросом. Возникли сомнения до старта? Приходи на кофе — познакомимся и развеем страхи.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO / МОИ РАБОТЫ -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <p class="section-eyebrow tc" data-reveal>Портфолио</p>
+        <h2 class="section-title tc" data-reveal>Мои<br><em>работы</em></h2>
+
+        <!-- ============================================================
+             КАК ДОБАВИТЬ СВОИ ФОТО:
+             Раскомментируй нужные блоки ниже и замени src на путь к фото.
+             Можно загрузить фото прямо в папку репозитория.
+
+             Пример:
+             <div class="portfolio__item">
+                 <img src="work1.jpg" alt="Ламинирование ресниц">
+                 <div class="portfolio__caption">Ламинирование ресниц</div>
+             </div>
+        ============================================================ -->
+
+        <div class="portfolio__grid" id="portfolioGrid">
+
+            <!-- ЗАГЛУШКА — удали весь этот блок когда добавишь свои работы -->
+            <div class="portfolio__placeholder" id="portfolioPlaceholder">
+                <div class="portfolio__placeholder-icon">🖼</div>
+                <p class="portfolio__placeholder-title">Работы скоро появятся</p>
+                <p class="portfolio__placeholder-sub">Здесь будут фотографии моих работ — ламинирование бровей и ресниц до/после.</p>
+            </div>
+
+            <!-- ПРИМЕРЫ БЛОКОВ — раскомментируй и заполни своими фото: 
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work1.jpg" alt="Ламинирование ресниц">
+                <div class="portfolio__overlay">
+                    <span>Ламинирование ресниц</span>
+                </div>
+            </div>
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work2.jpg" alt="Ламинирование бровей">
+                <div class="portfolio__overlay">
+                    <span>Ламинирование бровей</span>
+                </div>
+            </div>
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work3.jpg" alt="Окрашивание бровей">
+                <div class="portfolio__overlay">
+                    <span>Окрашивание бровей</span>
+                </div>
+            </div>
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work4.jpg" alt="До и после">
+                <div class="portfolio__overlay">
+                    <span>До / После</span>
+                </div>
+            </div>
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work5.jpg" alt="Работа с асимметрией">
+                <div class="portfolio__overlay">
+                    <span>Работа с асимметрией</span>
+                </div>
+            </div>
+
+            <div class="portfolio__item" data-reveal>
+                <img src="work6.jpg" alt="Комбо-процедура">
+                <div class="portfolio__overlay">
+                    <span>Комбо-процедура</span>
+                </div>
+            </div>
+
+            -->
+        </div>
+    </div>
+</section>
+
+<!-- STUDENTS WORKS -->
+<section class="students" id="students">
+    <div class="container">
+        <p class="section-eyebrow tc" data-reveal>Работы учениц</p>
+        <h2 class="section-title tc" data-reveal>Они уже<br><em>делают это</em></h2>
+        <p class="students__lead tc" data-reveal>Мои выпускницы начинают работать с реальными клиентами уже через несколько дней после курса.</p>
+
+        <!-- ════════════════════════════════════════════════
+             КАК ДОБАВИТЬ ФОТО:
+             Раскомментируй блоки ниже, замени src на имя файла,
+             загрузи фото в репозиторий рядом с index.html.
+
+             Подпись необязательна — можно оставить только img.
+        ════════════════════════════════════════════════ -->
+
+        <!-- ════════════════════════════════════════════════
+             КАК ДОБАВИТЬ ФОТО УЧЕНИЦ:
+             Найди блок .sw-carousel__track ниже.
+             Раскомментируй sw-item блоки, замени src="s1.jpg" на имя своего файла.
+             Загрузи фото в репозиторий рядом с index.html.
+             Когда добавишь фото — удали sw-placeholder.
+        ════════════════════════════════════════════════ -->
+
+        <div class="carousel sw-carousel" id="studentsCarousel">
+            <div class="carousel__track sw-carousel__track" id="studentsTrack">
+
+                <!-- ЗАГЛУШКА — удали когда добавишь фото -->
+                <!-- <div class="sw-placeholder">
+                    <div class="sw-placeholder__icon">🌸</div>
+                    <p class="sw-placeholder__title">Работы учениц скоро здесь</p>
+                    <p class="sw-placeholder__sub">Мои выпускницы уже создают красивые результаты — совсем скоро покажу их работы.</p>
+                    <a href="#booking" class="btn btn--outline">Хочу учиться</a>
+                </div> -->
+
+                <!-- ФОТО — раскомментируй и заполни: -->
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s1.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка1 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s2.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка2 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s3.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка3 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s4.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка4 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s5.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка1 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s6.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка6 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s7.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка7 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s8.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка8 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s9.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка9 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s10.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка10 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s11.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка11 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s12.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка12 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s13.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка13 · РАБОТА</div>
+            </div>
+
+            <div class="sw-item" data-reveal>
+                <img src="media/s14.jpg" alt="Работа ученицы">
+                <div class="sw-item__caption">Фотка14 · РАБОТА</div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses" id="courses">
+    <div class="container">
+        <p class="section-eyebrow tc" data-reveal>Программы</p>
+        <h2 class="section-title tc" data-reveal>Выбери<br><em>своё направление</em></h2>
+        <div class="courses__grid">
+
+            <!-- LASHES -->
+            <div class="course-card" data-reveal>
+                <div class="course-card__tag">Ресницы</div>
+                <h3 class="course-card__name">Ламинирование<br>ресниц</h3>
+                <div class="course-card__price">
+                    <div class="price-main">80 000 ₸</div>
+                    <div class="price-sub">Офлайн с практикой</div>
+                    <div class="price-online">60 000 ₸ — онлайн (без практики)</div>
+                </div>
+                <ul class="course-card__list">
+                    <li>Строение и фазы роста ресницы</li>
+                    <li>Правильный подбор и виды валиков</li>
+                    <li>Окрашивание ресниц</li>
+                    <li>Исправление чужого ламинирования</li>
+                    <li>Риски, аллергии, противопоказания</li>
+                    <li>Психология коммуникации с клиентом</li>
+                    <li>Именной сертификат</li>
+                </ul>
+                <div class="course-card__bonus">
+                    <span>✦ Бонус:</span> Как работать с ремувером и снимать наращенные ресницы
+                </div>
+                <a href="#" class="btn btn--outline course-card__btn wa-btn" data-course="Ламинирование ресниц (офлайн, 80 000 ₸)">Записаться</a>
+            </div>
+
+            <!-- COMBO (featured) -->
+            <div class="course-card course-card--featured" data-reveal>
+                <div class="course-card__ribbon">Выгоднее всего</div>
+                <div class="course-card__tag">Брови + Ресницы</div>
+                <h3 class="course-card__name">Комбо-курс</h3>
+                <div class="course-card__price">
+                    <div class="price-main">180 000 ₸</div>
+                    <div class="price-sub">Офлайн с практикой</div>
+                    <div class="price-online">150 000 ₸ — онлайн (без практики)</div>
+                </div>
+                <ul class="course-card__list">
+                    <li>Полная программа по ресницам</li>
+                    <li>Полная программа по бровям</li>
+                    <li>Два именных сертификата</li>
+                    <li>Отработка на моделях (офлайн)</li>
+                </ul>
+                <div class="course-card__bonus course-card__bonus--dark">
+                    <span>🚀 Эксклюзив:</span> Доступ в закрытый Telegram-канал <strong>«SOLD OUT мастера»</strong> — как упаковать профиль, привлекать клиентов с первых дней и продавать дорого.
+                </div>
+                <a href="#" class="btn btn--light course-card__btn wa-btn" data-course="Комбо-курс: Брови + Ресницы (офлайн, 180 000 ₸)">Записаться на комбо</a>
+            </div>
+
+            <!-- BROWS -->
+            <div class="course-card" data-reveal>
+                <div class="course-card__tag">Брови</div>
+                <h3 class="course-card__name">Ламинирование<br>бровей</h3>
+                <div class="course-card__price">
+                    <div class="price-main">120 000 ₸</div>
+                    <div class="price-sub">Офлайн с практикой</div>
+                    <div class="price-online">90 000 ₸ — онлайн (без практики)</div>
+                </div>
+                <ul class="course-card__list">
+                    <li>Архитектура и построение формы</li>
+                    <li>Работа со сложной асимметрией</li>
+                    <li>Колористика и окрашивание</li>
+                    <li>Адаптация под форму лица</li>
+                    <li>Ламинирование бровей</li>
+                    <li>Коррекция (пинцет / воск)</li>
+                    <li>Строение кожи и волоса</li>
+                    <li>Дезинфекция и стерилизация</li>
+                    <li>Именной сертификат</li>
+                </ul>
+                <div class="course-card__bonus">
+                    <span>✦ Бонус:</span> Авторские лайфхаки для использования в процедуре
+                </div>
+                <a href="#" class="btn btn--outline course-card__btn wa-btn" data-course="Ламинирование бровей (офлайн, 120 000 ₸)">Записаться</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+    <div class="container">
+        <p class="section-eyebrow tc" data-reveal>Отзывы</p>
+        <h2 class="section-title tc" data-reveal>Что говорят<br><em>ученицы</em></h2>
+
+        <!-- ============================================================
+             КАК ДОБАВИТЬ ОТЗЫВ:
+             Скопируй блок .review-card ниже, раскомментируй и заполни.
+             rating — число от 1 до 5 (количество закрашенных звёзд)
+
+             Пример:
+             <div class="review-card" data-reveal>
+                 <div class="review-card__stars" data-rating="5"></div>
+                 <p class="review-card__text">«Текст отзыва здесь...»</p>
+                 <div class="review-card__author">
+                     <div class="review-card__avatar">А</div>
+                     <div>
+                         <div class="review-card__name">Айгерим</div>
+                         <div class="review-card__course">Комбо-курс</div>
+                     </div>
+                 </div>
+             </div>
+        ============================================================ -->
+
+        <!-- Carousel wrapper -->
+        <div class="carousel" id="reviewsCarousel">
+            <div class="carousel__track" id="reviewsTrack">
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Я если честно в восторге даже спустя год после обучения🥺 Настолько ясно и подробно было всё рассказано и показано, что все детали до сих пор в моей голове. Даже несмотря на то что мы вдвоём приболели во время обучения, всё прошло быстро, эффективно и очень запоминающе. Очень профессионально с твоей стороны что ты всегда на связи, всегда подскажешь и поддерживаешь во всех моментах. Спасибо тебе большое, я очень рада что попала к тебе самой первой на курс🙂»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">Д</div>
+                        <div>
+                            <div class="review-card__name">Дарья</div>
+                            <div class="review-card__course">Комбо-курс</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Честно говоря, до обучения очень переживала, потому что никогда раньше не работала в этой сфере и боялась, что не справлюсь. Но всё оказалось намного проще благодаря тому, как ты объясняешь материал. Каждое действие разбиралось настолько подробно, что вопросов практически не оставалось. Очень понравилось, что во время практики ты обращала внимание даже на мелочи. После курса появилась уверенность в своих силах. Спасибо тебе огромное за знания, поддержку и комфортную атмосферу ❤️»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">А</div>
+                        <div>
+                            <div class="review-card__name">Анастасия</div>
+                            <div class="review-card__course">Комбо-курс</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Долго выбирала преподавателя и очень рада, что в итоге попала именно к тебе. Обучение прошло легко и интересно, хотя информации было действительно много. Особенно понравилось, что после курса не остаёшься один на один со своими вопросами — всегда можно написать и получить помощь. Прошло уже несколько месяцев, а я до сих пор пользуюсь всеми рекомендациями. Спасибо за профессионализм и отношение к своим ученикам 🥰»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">М</div>
+                        <div>
+                            <div class="review-card__name">Марина</div>
+                            <div class="review-card__course">Ламинирование ресниц</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Самое ценное для меня было то, что обучение было не просто про технику, а про понимание всех процессов от начала до конца. Ты объясняешь очень доступно и спокойно, поэтому даже сложные моменты быстро становятся понятными. Атмосфера была максимально комфортной, не было страха ошибиться. После обучения я почувствовала себя гораздо увереннее и уже начала работать с клиентами. Спасибо за знания, поддержку и мотивацию ✨»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">Е</div>
+                        <div>
+                            <div class="review-card__name">Екатерина</div>
+                            <div class="review-card__course">Ламинирование бровей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Очень понравилось обучение! Всё объясняется простым языком и сразу закрепляется на практике. Благодаря этому информация действительно хорошо запоминается.»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">В</div>
+                        <div>
+                            <div class="review-card__name">Виктория</div>
+                            <div class="review-card__course">Ламинирование ресниц</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Спасибо за терпение и поддержку на протяжении всего обучения. Очень комфортная атмосфера и действительно полезные знания, которые можно сразу применять на практике ❤️»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">К</div>
+                        <div>
+                            <div class="review-card__name">Кристина</div>
+                            <div class="review-card__course">Комбо-курс</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="4"></div>
+                    <p class="review-card__text">«Обучение понравилось, материал был понятным и хорошо структурированным. Иногда хотелось немного больше времени на практику, но в целом курс оставил очень хорошие впечатления. Получила много полезной информации и стала гораздо увереннее в работе.»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">С</div>
+                        <div>
+                            <div class="review-card__name">София</div>
+                            <div class="review-card__course">Ламинирование бровей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Очень довольна обучением. Всё понятно и доступно ❤️»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">П</div>
+                        <div>
+                            <div class="review-card__name">Полина</div>
+                            <div class="review-card__course">Ламинирование ресниц</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars" data-rating="5"></div>
+                    <p class="review-card__text">«Лучшее обучение, на котором я была. Спасибо большое 🫶»</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar">Н</div>
+                        <div>
+                            <div class="review-card__name">Наталья</div>
+                            <div class="review-card__course">Комбо-курс</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel__dots" id="reviewsDots"></div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+    <div class="container faq__inner">
+        <div class="faq__left">
+            <p class="section-eyebrow" data-reveal>Вопросы и ответы</p>
+            <h2 class="section-title" data-reveal>Частые<br><em>вопросы</em></h2>
+            <p class="faq__hint" data-reveal>Не нашла ответ? Напиши мне в WhatsApp — отвечу быстро.</p>
+            <a href="https://wa.me/77075227137?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D0%A1%D0%BE%D1%84%D1%8C%D1%8F%21+%D0%AF+%D0%BD%D0%B0+%D0%B2%D0%B0%D1%88%D0%B5%D0%BC+%D1%81%D0%B0%D0%B9%D1%82%D0%B5%2C+%D0%B8%D0%B7%D1%83%D1%87%D0%B0%D1%8E+%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E+%D0%BE+%D0%BA%D1%83%D1%80%D1%81%D0%B0%D1%85.+%D0%95%D1%81%D1%82%D1%8C+%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2+%E2%80%94+%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C+%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%3F" target="_blank" class="btn btn--dark" data-reveal>Написать в WhatsApp</a>
+        </div>
+        <div class="faq__list">
+            <div class="faq__item" data-reveal>
+                <button class="faq__q" aria-expanded="false">
+                    Нужно ли мне самой искать моделей?
+                    <span class="faq__icon"></span>
+                </button>
+                <div class="faq__a"><p>Нет. Поиск моделей на время офлайн-обучения я полностью беру на себя. Вы приходите и спокойно отрабатываете практику без лишних забот.</p></div>
+            </div>
+            <div class="faq__item" data-reveal>
+                <button class="faq__q" aria-expanded="false">
+                    Выдаётся ли сертификат?
+                    <span class="faq__icon"></span>
+                </button>
+                <div class="faq__a"><p>Да! По окончании курса вы получаете именной сертификат, подтверждающий квалификацию — как при офлайн, так и при онлайн формате обучения.</p></div>
+            </div>
+            <div class="faq__item" data-reveal>
+                <button class="faq__q" aria-expanded="false">
+                    А что, если у меня не получится?
+                    <span class="faq__icon"></span>
+                </button>
+                <div class="faq__a"><p>Учиться новому всегда волнительно — это нормально. Программа выстроена от простого к сложному, я лично ставлю руку. А после обучения остаюсь на связи — я не бросаю своих учениц.</p></div>
+            </div>
+            <div class="faq__item" data-reveal>
+                <button class="faq__q" aria-expanded="false">
+                    Можно ли познакомиться до начала обучения?
+                    <span class="faq__icon"></span>
+                </button>
+                <div class="faq__a"><p>Конечно! Если сомневаетесь — предлагаю встретиться лично: выпьем кофе, познакомимся, я расскажу всё подробнее и развею любые страхи.</p></div>
+            </div>
+            <div class="faq__item" data-reveal>
+                <button class="faq__q" aria-expanded="false">
+                    Есть ли поддержка после курса?
+                    <span class="faq__icon"></span>
+                </button>
+                <div class="faq__a"><p>Да. Вы не остаётесь одни. Я всегда доступна в мессенджерах и готова ответить на вопросы, которые возникнут уже в работе с реальными клиентами.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+    <div class="booking__bg-art" aria-hidden="true">
+        <div class="booking__orb booking__orb--1"></div>
+        <div class="booking__orb booking__orb--2"></div>
+    </div>
+    <div class="container booking__inner">
+        <div class="booking__left">
+            <p class="section-eyebrow" data-reveal>Запись</p>
+            <h2 class="section-title" data-reveal>Первый шаг<br><em>начинается здесь</em></h2>
+            <p data-reveal>Оставь свои контакты — я свяжусь для бесплатной консультации и расскажу всё подробнее.</p>
+            <p class="booking__or" data-reveal>Или напиши напрямую:</p>
+            <a href="https://wa.me/77075227137?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D0%A1%D0%BE%D1%84%D1%8C%D1%8F%21+%D0%AF+%D0%BD%D0%B0+%D0%B2%D0%B0%D1%88%D0%B5%D0%BC+%D1%81%D0%B0%D0%B9%D1%82%D0%B5%2C+%D0%B2%D1%81%D1%91+%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D0%BB%D0%B0%2C+%D1%85%D0%BE%D1%87%D1%83+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5.+%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%2C+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C+%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5+%D0%B4%D0%B0%D1%82%D1%8B+%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8B+%D0%B8+%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BD%D0%B5%D1%81%D1%82%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%83." target="_blank" class="btn btn--outline" data-reveal>WhatsApp</a>
+        </div>
+        <div class="booking__form-wrap" data-reveal>
+            <form class="booking__form" id="bookingForm" novalidate>
+                <div class="field">
+                    <label for="name">Имя и фамилия</label>
+                    <input type="text" id="name" name="name" placeholder="Например: Айгерим Сейткали" required>
+                </div>
+                <div class="field">
+                    <label for="phone">Номер телефона / WhatsApp</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+7 (707) 123-45-67" required>
+                </div>
+                <div class="field">
+                    <label for="course">Интересующий курс</label>
+                    <select id="course" name="course">
+                        <option value="Ламинирование ресниц (офлайн) — 80 000 ₸">Ламинирование ресниц — офлайн 80 000 ₸</option>
+                        <option value="Ламинирование ресниц (онлайн) — 60 000 ₸">Ламинирование ресниц — онлайн 60 000 ₸</option>
+                        <option value="Ламинирование бровей (офлайн) — 120 000 ₸">Ламинирование бровей — офлайн 120 000 ₸</option>
+                        <option value="Ламинирование бровей (онлайн) — 90 000 ₸">Ламинирование бровей — онлайн 90 000 ₸</option>
+                        <option value="Комбо Брови+Ресницы (офлайн) — 180 000 ₸">Комбо Брови+Ресницы — офлайн 180 000 ₸</option>
+                        <option value="Комбо Брови+Ресницы (онлайн) — 150 000 ₸">Комбо Брови+Ресницы — онлайн 150 000 ₸</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn--dark booking__submit" id="submitBtn">
+                    <span class="btn-text">Записаться</span>
+                    <span class="btn-loading" hidden>
+                        <svg class="spinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="60" stroke-dashoffset="20"/></svg>
+                        Отправка…
+                    </span>
+                </button>
+                <p class="booking__privacy">Данные используются только для связи с вами — никакого спама.</p>
+                <div class="booking__success" id="successMsg" hidden>
+                    <span class="booking__success-icon">✓</span>
+                    Заявка принята! Открываю WhatsApp — там уже готово сообщение 🌸
+                </div>
+                <div class="booking__error" id="errorMsg" hidden>
+                    Что-то пошло не так. Напиши напрямую в <a href="https://wa.me/77075227137?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D0%A1%D0%BE%D1%84%D1%8C%D1%8F%21+%D0%AF+%D0%BD%D0%B0+%D0%B2%D0%B0%D1%88%D0%B5%D0%BC+%D1%81%D0%B0%D0%B9%D1%82%D0%B5%2C+%D1%85%D0%BE%D1%87%D1%83+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5.">WhatsApp</a>.
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__brand">
+            <span class="footer__name">Софья Юсупова</span>
+            <span class="footer__tagline">Обучение ламинированию бровей и ресниц · Актау</span>
+        </div>
+        <nav class="footer__links">
+            <a href="https://wa.me/77075227137?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D0%A1%D0%BE%D1%84%D1%8C%D1%8F%21+%D0%AF+%D0%BD%D0%B0+%D0%B2%D0%B0%D1%88%D0%B5%D0%BC+%D1%81%D0%B0%D0%B9%D1%82%D0%B5%2C+%D1%85%D0%BE%D1%87%D1%83+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5." target="_blank">WhatsApp</a>
+            <a href="#about">Обо мне</a>
+            <a href="#portfolio">Работы</a>
+            <a href="#courses">Курсы</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#booking">Запись</a>
+        </nav>
+        <div class="footer__copy">© 2026 Софья Юсупова</div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
